@@ -1,0 +1,57 @@
+/* example divs for the most part from XML Schema */
+div.exampleInner pre {
+  margin-left: 1em; 
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+div.exampleOuter {
+  border: 4px double gray; 
+  margin: 0em; padding: 0em;
+}                 
+div.exampleInner {
+  background: #d5dee3;
+  color: #000;
+  border-top-width: 4px;
+  border-top-style: double;
+  border-top-color: #d3d3d3;
+  border-bottom-width: 4px;
+  border-bottom-style: double;
+  border-bottom-color: #d3d3d3;
+  padding: 4px; margin: 0em;
+}
+div.exampleWrapper {
+  margin: 4px;
+}
+div.exampleHeader {
+  font-weight: bold;
+  margin: 4px;
+}
+/* end example divs */
+
+code, pre, tt, kbd { font-family: monospace; }
+
+.RFC2119 {
+  text-transform: lowercase;
+  font-style: italic;
+}
+dt {
+  font-weight: bold;
+}
+.not-en {
+  font-style: italic;
+}
+.UnicodeName {
+  font-variant: small-caps;
+}
+.UnicodeAlias {
+  font-style: italic;
+}
+.copyright {
+  font-size: small;
+}
+li.tocline1 {
+  font-weight: bold;
+}
+li.tocline2, li.tocline3 {
+  font-weight: normal;
+}
