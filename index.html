@@ -989,7 +989,7 @@ whole <abbr title="World Wide Web Consortium">W3C</abbr> community.</p>
   href="https://www.w3.org/pubrules/">PubRules</a> shows a warning 
 about:</p>
 
-<table class="data">
+<table id="neutrallanguage" class="data">
   <thead>
     <tr>
       <th>Terms to avoid</th>
@@ -997,30 +997,6 @@ about:</p>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>master/slave</td>
-      <td>main/replica</td>
-    </tr>
-    <tr>
-      <td>whitelist/blacklist</td>
-      <td>allowlist/denylist</td>
-    </tr>
-    <tr>
-      <td>grandfather</td>
-      <td>legacy</td>
-    </tr>
-    <tr>
-      <td>sanity</td>
-      <td>coherence</td>
-    </tr>
-    <tr>
-      <td>dummy</td>
-      <td>placeholder</td>
-    </tr>
-    <tr>
-      <td>he/her, him/her, his/hers</td>
-      <td>they/theirs</td>
-    </tr>
   </tbody>
 </table>
 
@@ -1558,5 +1534,21 @@ https://www.w3.org/TR/2006/REC-xml-20060816/#sec-comments.</dd>
 </dl>
 </section>
 
+<script>
+// get list of bad terms
+fetch("https://www.w3.org/pubrules/badterms.json").then(res => res.json()).then(terms => {
+  let tbody = document.querySelector("#neutrallanguage > tbody")
+  terms.forEach(t => {
+    let row = document.createElement('tr');
+    let termCell = document.createElement('td');
+    termCell.innerText = t.term.join('/');
+    let altCell = document.createElement('td');
+    altCell.innerText = t.alternatives.join('/');
+    row.appendChild(termCell);
+    row.appendChild(altCell);
+    tbody.appendChild(row);
+  });
+});
+</script>
 </body>
 </html>
