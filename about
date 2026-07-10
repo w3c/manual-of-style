@@ -1,0 +1,30 @@
+---
+title: "About this style guide"
+title_sentence: "About this style guide"
+title_html: "About this style guide"
+nav_title: "About"
+lang: en
+order: 0
+---
+
+This style guide promotes readability, consistency, and easier translation across W3C content.
+
+It's a living document. For the list of substantive changes, see the [changelog](/unified-style-guide/changelog/).
+
+The guidance is written for US English. Translators should follow the conventions of their target language.
+
+Following this guide helps:
+
+- make content easier for native and non-native English speakers to read and understand
+- support translators by using clear, consistent language
+- improve consistency across W3C publications
+- reduce editorial corrections and reports of avoidable issues
+
+Keep in mind that W3C content serves a global audience and is often used as authoritative reference material. Prioritize clarity, simplicity, and long-term readability. Much of what we publish becomes part of the permanent web record under the [W3C Persistence Policy](https://www.w3.org/policies/uri-persistence/).
+
+## Get started
+
+You can navigate the style guide:
+
+- section by section, using the table of contents below [add link when created]
+- as a single continuous page[add link when created]
