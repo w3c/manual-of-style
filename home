@@ -1,0 +1,24 @@
+---
+title: "W3C Unified Style Guide"
+lang: en
+lead: "Follow these guidelines when writing materials for W3C."
+resource:
+  title: "W3C Unified Style Guide"
+---
+
+{%- assign about = site.unified-style-guide | find: "name", "about.md" -%}
+## {{ about.title_sentence }}
+{{ about.content }}
+
+## Get started
+
+You can navigate the style guide:
+- section by section, using the [table of contents](#toc) below
+- as a [single continuous page](/style-guide/one-page/)
+
+## Table of contents {#toc}
+
+* [Structure and presentation](/unified-style-guide/structure-presentation/)
+* [Tone, language, and words](/unified-style-guide/tone-language-words/)
+* [Style for different content types (A–Z)](/unified-style-guide/style-different-content-types/)
+* [Grammar](/unified-style-guide/grammar/)
