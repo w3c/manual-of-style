@@ -465,7 +465,7 @@ Example 4: Alternative
   <li>Use: If <b>or</b> when I have a dog, I’ll need a fenced yard.</li>
 </ul>
 
-Exception: You may use a forward slash to show an alternative if it's clearer than using words.
+**Exception:** You may use a forward slash to show an alternative if it's clearer than using words.
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Example:
@@ -505,7 +505,7 @@ Examples:
 - Use: The working group has published a draft.
 </div>
 
-Exceptions:
+**Exceptions:**
 
 - The following collective nouns take a plural verb:
   - People: The people are waiting.
