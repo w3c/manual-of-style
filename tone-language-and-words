@@ -1,0 +1,205 @@
+---
+title: "Tone, language, and words – Unified Style Guide"
+title_sentence: "Tone, language, and words"
+title_html: "Tone, language, and words"
+nav_title: "Tone, language, and words"
+lang: en
+order: 2
+---
+
+{% include toc.html %}
+
+## Tone
+
+* Authoritative and factual
+* Clear and straightforward
+* Inclusive and respectful
+
+## Language
+
+### Write in plain language
+
+Plain language uses clear wording, structure and design. It helps readers easily:
+
+* <b>find</b> information
+* <b>understand</b> it
+* <b>use</b> it to complete tasks
+
+#### Techniques for writing in plain language
+
+##### Abbreviations
+
+Provide the full term with the abbreviation on first use. See [Expanding abbreviations](/style-guide/style-different-content-types/#expanding-abbreviations).
+
+##### Contractions
+
+Avoid negative contractions such as “can’t”, “don’t”, and “won’t”.
+
+Keeping the word “not” expanded is important because it may distinguish between right and wrong, lawful and unlawful, or safe and unsafe. Negative contractions can cause some readers to overlook the apostrophe and interpret a statement as positive.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+<ul>
+  <li>Avoid: can’t, don’t, won’t</li>
+  <li>Use: cannot, do not, will not</li>
+</ul>
+</div>
+
+Use simple positive contraction such as “it’s”, “you’re”,  “we’ve” and they’ll, because they make text feel more conversational and friendly, and help readers absorb information faster.
+
+##### Personal pronouns
+
+Use “you” and “your” to address the reader.
+
+Use “we” when speaking for an organization (like W3C), but only when it’s clear who “we” refers to.
+
+##### Structure
+
+Break up information into smaller sections to make it easier to read. See [Using structural elements](/style-guide/structure-presentation/#using-structural-elements).
+
+##### Verbs
+
+Do not turn actions into nouns. Use verbs instead.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example 1:
+
+<ul>
+  <li>Avoid: We conducted an analysis of the results.</li>
+  <li>Use: We analyzed the results.</li>
+</ul>
+
+Example 2:
+
+<ul>
+  <li>Avoid: They carried out an investigation into the issue.</li>
+  <li>Use: They investigated the issue.</li>
+</ul>
+</div>
+
+##### Voice
+
+Write in the active voice; that is, the subject performs the action.
+
+Avoid the passive voice where possible. 
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+<ul>
+  <li>Avoid the passive voice: Additional information will be provided here when it's available.</li>
+  <li>Use the active voice: We’ll provide updated information here when it’s available.</li>
+</ul>
+</div>
+
+##### Words
+
+* Use everyday, familiar words.
+* Avoid jargon and metaphors.
+* Explain specialist terms on first use.
+* Remove unnecessary words.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example of unnecessary words:
+
+<ul>
+  <li>Avoid: <b>Try to</b> write link text <b>so</b> that <b>it</b> <b>clearly</b> describes where the link goes.</li>
+  <li>Use: Write link text that describes where the link goes.</li>
+</ul>
+</div>
+
+### Write for a global audience
+
+W3C content is read and translated around the world.
+
+- Avoid culture-specific references.
+- Use examples that reflect a variety of cultures and regions.
+- Choose internationally understood terms, such as “postal code” instead of “ZIP code”, and “given name” instead of “first name” (and [do not assume everyone has a first and last name, or that a family name comes last](https://www.w3.org/International/questions/qa-personal-names.en.html)).
+- Use internationally recognized formats for dates, times, numbers, currency, percentages and measurements to avoid ambiguity.
+
+### Write inclusively
+
+#### Aged-inclusive language
+
+Only state or request someone’s age when it’s strictly relevant.
+
+- Use: Older people
+- Avoid: Older users, old people, the elderly, seniors
+
+#### Disabiity language
+
+See Disability language [link coming] for guidance on people-first language, identity-first language, disability-specific terms, and terminology to avoid.
+
+#### Gender-inclusive language
+
+Use gender-neutral language, where possible.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+Use “chair”, not “chairman”.
+</div>
+
+Avoid assumptions about gender.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+Not all builders are male.
+</div>
+
+##### Pronouns: Gender inclusivity and translation considerations
+
+Use pronouns that are **inclusive** and **easy to translate** for W3C's global audience.
+
+###### Use a plural noun to avoid he/she, his/her
+
+Avoid assuming gender by skipping "he/she" and "his/her", where possible. Use a <b>plural noun</b> instead.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+Using the noun  “developer”:
+
+<ul>
+  <li>Avoid: A developer should test <b>his</b> code before release.</li>
+  <li>Use: <b>Developers</b> should test <b>their</b> code before release.</li>
+</ul>
+</div>
+
+###### Use a noun instead of singular “they”
+
+Singular, “they” can be:
+
+* hard to translate in some languages
+* hard to understand for some people
+* seen as grammatically incorrect by some people
+
+To avoid using singular “they”, use a <b>noun</b> instead.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+<ul>
+  <li>Avoid: If an author can avoid jargon, <b>they</b> should do so.</li>
+  <li>Use: If an author can avoid jargon, <b>the author</b> should do so.</li>
+</ul>
+</div>
+
+**Exceptions:** Use:
+
+* personal pronouns that real people use for themselves
+* pronouns assigned to named personas
+
+#### Race-inclusive language
+
+Terms to avoid:
+
+* Master — instead, use “main” 
+* Whitelist — instead, use “allowlist”
+* Blacklist — instead, use “denylist”
+
+## W3C key terms
+
+For correct usage and spelling of key terms, see the W3C Word List [link coming].
