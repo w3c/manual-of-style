@@ -113,7 +113,7 @@ Example:
 31 May 2022
 </div>
 
-If numbers only are required, use YYYY-MM-DD:
+If numbers only are required, such as in a form, use YYYY-MM-DD:
 
 <div class="inset-text inset-text--related inset-text--condensed" markdown="1">
 Example:
