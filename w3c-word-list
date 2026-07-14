@@ -1,0 +1,19 @@
+---
+title: "W3C word list – W3C Unified Style Guide"
+title_sentence: "W3C word list"
+title_html: "W3C word list"
+nav_title: "W3C word list"
+lang: en
+order: 6
+---
+
+{% include toc.html %}
+
+An alphabetised list of common W3C terms with guidance on how to write and use them.
+
+
+## Abort 
+
+Avoid using this word. Use "cancel" instead.
+
+<b>Category:</b> Avoid and replace
