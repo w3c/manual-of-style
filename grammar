@@ -1,0 +1,520 @@
+---
+title: "Grammar – W3C Unified Style Guide"
+title_sentence: "Grammar"
+title_html: "Grammar"
+nav_title: "Grammar"
+lang: en
+order: 4
+---
+
+{% include toc.html %}
+
+## Capitalization
+
+### Abbreviations
+
+See [Capitalization in abbreviations](/style-guide/style-different-content-types/#capitalization-in-abbreviations).
+
+### All caps
+
+Avoid using all capital letters for words (except acronyms).
+
+### Glossaries
+
+Use lowercase for glossary terms (except for proper names).
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example
+
+<dl>
+  <dt>browser </dt>
+  <dd>A web client that allows a human to read information on the web</dd>
+  
+  <dt>Enquire Everything</dt>
+  <dd>A 1980 program named after the Victorian book Enquire Within upon</dd>
+
+  <dt>information space </dt>
+  <dd>The abstract concept of everything accessible using networks: the web</dd>
+</div>
+
+### Headings
+
+See [Capitalization in headings](/style-guide/style-different-content-types/#capitalization-in-headings).
+
+### Lists
+
+See [Capitalization and punctuation in lists](/style-guide/style-different-content-types/#capitalization-and-punctuation-in-lists).
+
+### Official names versus common terms
+
+Capitalize terms when they form part of an official name. 
+
+Use the full official name where practical to reduce ambiguity.
+
+Use lowercase when referring to the same thing generically rather than by its official name.
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Generic term</th>
+<th scope="col">Example official name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>advisory board</td>
+      <td>W3C Advisory Board</td>
+    </tr>
+    <tr>
+      <td>advisory committee</td>
+      <td>W3C Advisory Committee</td>
+    </tr>
+    <tr>
+      <td>code of conduct</td>
+      <td>W3C Code of Conduct</td>
+    </tr>
+    <tr>
+      <td>interest group</td>
+      <td>WAI Interest Group</td>
+    </tr>
+    <tr>
+      <td>member</td>
+      <td>W3C Member</td>
+    </tr>
+    <tr>
+      <td>participant</td>
+      <td>W3C Participant</td>
+    </tr>
+    <tr>
+      <td>patent policy</td>
+      <td>W3C Patent Policy</td>
+    </tr>
+    <tr>
+      <td>process document</td>
+      <td>W3C Process Document</td>
+    </tr>
+    <tr>
+      <td>recommendation</td>
+      <td>W3C Recommendation</td>
+    </tr>
+    <tr>
+      <td>staff contact</td>
+      <td>W3C Staff Contact</td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>W3C Statement</td>
+    </tr>
+    <tr>
+      <td>task force</td>
+      <td>COGA Task Force</td>
+    </tr>
+    <tr>
+      <td>working group</td>
+      <td>ARIA Working Group</td>
+    </tr>
+    <tr>
+      <td>workshop</td>
+      <td>W3C Workshop</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Do not abbreviate an official name
+
+Use the full official names where practical to reduce ambiguity.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+Use:
+
+* W3C Advisory Board
+* WAI Interest Group
+* ARIA Working Group
+
+Avoid:
+
+* Advisory Board
+* Interest Group
+* Working Group
+</div>
+
+#### Plural forms
+
+Use lowercase for generic references, even when the singular form is capitalized as part of an official name.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+* The organization joined as a <b>W3C Member</b> to work with us.
+* Organizations of all sizes and all types are W3C <b>members</b>.
+* We have published a new <b>W3C Recommendation</b>.
+* We have published several <b>W3C recommendations</b>.
+* WCAG 2.2 includes <b>Success Criterion 2.5.8 Target Size (Minimum)</b>.
+* WCAG 2.2 contains 86 <b>success criteria.</b>
+* The <b>Accessibility Guidelines Working Group</b> is discussing the issue.
+* Three <b>working groups</b> support W3C's mission to make the web accessible to people with disabilities.
+</div>
+
+## Punctuation
+
+Punctuation helps to separate ideas, signal relationships between ideas or emphasize ideas. Each punctuation type has a different purpose.
+
+### Brackets
+
+#### Parentheses (round brackets)
+
+Use parentheses sparingly within a simple sentence in the following scenarios:
+
+<b><Scenario 1:</b> Provide the abbreviation for a term
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+Internet of Things (IoT)
+</div>
+
+<b>Scenario 2:</b> Clarify something in a short aside
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+Captions (called “subtitles” in some areas) provide content to people who are deaf and hard-of-hearing.
+</div>
+
+<b>Scenario 3:</b> Signal an optional plural
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+Test(s)
+</div>
+
+#### Square brackets
+
+Use square brackets in quotations to show you have altered or added something to the original quoted material.
+
+Use to:
+
+- insert an explanation in a direct quotation
+- indicate something that’s been incorrectly written in a direct quotation
+- add some text within a direct quotation in order to clarify something
+- modify a direct quotation so that it fits grammatically within the surrounding text
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+- Adding an explanation: “The council approved the project after reviewing the trial results [from an earlier study].”
+- Indicating an error: The letter states, “The committee beleives [sic] the proposal will succeed.”
+- Clarifying something: The report says the system must be updated because “it [the software] is outdated.
+- Modifying to fit grammar: The policy explains that “[t]he system must be reviewed every year.”
+</div>
+
+### Colons and semicolons
+
+#### Colons
+
+Use a colon to introduce the main idea(s). It gives the sense of “as follows.”
+
+In paragraph text: Use <b>lowercase</b> for the word following a colon
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example
+
+They had one goal: to finish the marathon
+</div>
+
+In titles or labels: Use <b>uppercase</b> for the word following a colon.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples
+
+- Group Note: Use of Large Language Models in standards work
+- Contact us: Email support@example.com.
+</div>
+
+**Note:** A complete sentence must precede a colon.
+
+#### Semicolons
+
+Use a semicolon in the following scenarios:
+
+<b>Scenario 1:</b>  Use a semicolon to combine two related ideas in a simple sentence. The text before and the text after the semicolon should both be grammatically complete sentences.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+- The rule is simple; applying it consistently is harder.
+- The first draft focused on accuracy; the second focused on readability.
+</div>
+
+<b>Scenario 2:</b> Use a semicolon to break up complex lists in a sentence or bulleted item that contains internal commas.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example
+
+The conference has attendees from Seattle, Washington; New Delhi, India; and Nairobi, Kenya.
+</div>
+
+### Commas
+
+In a phrase listing three or more items, place a comma before the final conjunction ("Oxford comma").
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+I bought apples, oranges, and bananas.
+</div>
+
+### Dashes and hyphens
+
+#### Em dash (—) {#em-dash}
+
+Use an em dash to add clarification, explanation, or emphasis after a complete clause.
+
+Put a space before and after an em dash.
+
+The part after the dash does not have to be a complete sentence.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+- WCAG 3 will have a different structure, different conformance model, and broader scope — see WCAG 3 Introduction.
+- Write in the active voice — that is, the subject performs the action.
+- Our mission is to make the web work — for everyone. 
+</div>
+
+**Note:** If using an em dash to combine related ideas makes a sentence long or complicated, use separate, grammatically complete sentences instead
+
+##### Em dashes in list items
+
+Use an em dash in a list item to separate a short term or phrase from its explanation or a clarification.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+<p>Common roles include:</p>
+<ul>
+  <li><b>author</b> — writes the content</li>
+  <li><b>editor</b> — reviews the content before publication</li>
+  <li><b>translator</b> — translates the content into another language</li>
+</ul>
+</div>
+
+#### En dash (–) {#en-dash}
+
+* Use an en dash to indicate a range in numbers, such as in dates, pages, and sports results.
+* Do not add a space before and after an en dash.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+<ul>
+  <li>The years 1990–2000 were transformative.</li>
+  <li>Read pages 10–15.</li>
+  <li>They defeated the defending champions 106–76.</li>
+</ul>
+</div>
+
+#### Hyphen (-)
+
+Use a hyphen to join compound adjectives.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+<ul>
+  <li>peer-to-peer connection</li>
+  <li>short-term memory</li>
+  <li>well-known technique</li>
+</ul>
+</div>
+
+**Note:** Hyphens can change the meaning of a phrase:
+
+- “small-business owner” versus “small business owner” (an owner of a small business or a business owner who is small?)
+- “little-used car” versus “little used car” (a car that has been used very little, or a used car that is small?)
+
+Do *not* hyphenate:
+
+* an adverb that ends in “ly”
+* an adverb that follows a noun
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+<ul>
+  <li>They are two <b>closely related</b> concepts.</li>
+  <li>The technique is <b>well known</b>.</li>
+</ul>
+</div>
+
+Use a hanging hyphen when two compound adjectives modify the same noun.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+The pre<b>-</b> and post<b>-</b>deployment stages are equally important.
+</div>
+
+For guidance on terms we no longer hyphenate and are written as one word, see the section on [Spelling](/style-guide/tone-language-words/#spelling).
+
+### Ellipsis (...)
+
+Use an ellipsis to show:
+
+* missing words
+* a pause
+* something left unsaid
+
+Add a space before and after an ellipsis.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+I was wondering … but it’s probably not important.
+</div>
+
+### Headings
+
+See [punctuation in headings](/style-guide/style-different-content-types/#punctuation-in-headings).
+
+### Links
+
+See [punctuation in links](/style-guide/style-different-content-types/#punctuation-in-links).
+
+### Lists
+
+See [punctuation in lists](/style-guide/style-different-content-types/#capitalization-and-punctuation-in-lists).
+
+### Numbers
+
+See [punctuation in numbers](/style-guide/style-different-content-types/#punctuation-in-numbers).
+
+### Parentheses
+
+See [Parentheses (optional)](/style-guide/structure-presentation/#parentheses-optional).
+
+### Quotation marks
+
+#### Double quotation marks
+
+Use double quotation marks to reference a term.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+This accessibility requirement is sometimes called “sufficient color contrast”; however, the technical term is “luminosity contrast”.
+</div>
+
+#### Single quotation marks
+
+Use single quotation marks for a quotation inside a quotation.
+
+**Note:** With nested quotes, the full stop remains inside both the single and double quotation marks.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example
+
+Maria said, "The reviewer described the proposal as 'well structured and easy to follow.'"
+</div> 
+
+#### Scare quotes
+
+Avoid using quotes in a way that could be taken to suggest irony or in a non-standard way. For more information, see [scare quotes](https://en.wikipedia.org/wiki/Scare_quotes).
+
+### Slashes
+
+#### Forward slash
+
+Generally, use a forward slash only in dates, fractions, and URLs.
+
+Avoid using a forward slash as a substitute for words. 
+
+For two things that have a close relationship, use a hyphen or words like “and” or “or” instead.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+
+Example 1: Close relationship
+
+<ul>
+  <li>Avoid: The issue was part of the larger nature/nurture debate.</li>
+  <li>Use: The issue was part of the larger nature<b>-</b>nurture debate.</li>
+</ul>
+
+Example 2: Equal relationship
+
+<ul>
+  <li>Avoid: The project examines cause/effect relationships.</li>
+  <li>Use: The project examines cause-<b>and</b>-effect relationships.</li>
+</ul>
+
+Example 3: Either or both
+
+<ul>
+  <li>Avoid: Add a potato and/or an onion.</li>
+  <li>Use: Add a potato, <b>or</b> an onion, <b>or both</b>.</li>
+</ul>
+</div>
+
+Example 4: Alternative
+
+<ul>
+  <li>Avoid: If/when I have a dog, I’ll need a fenced yard.</li>
+  <li>Use: If <b>or</b> when I have a dog, I’ll need a fenced yard.</li>
+</ul>
+
+**Exception:** You may use a forward slash to show an alternative if it's clearer than using words.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+<ul>
+  <li>Avoid: In inclusive writing, avoid gender pronouns (she or her, he or his).</li>
+  <li>Use: In inclusive writing, avoid gender pronouns (she/her, he/his).</li>
+</ul>
+</div>
+
+## That versus which
+
+<b>That:</b> Introduces essential information needed to understand the sentence
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+The time is essential to identify specific meetings: “The meeting that starts at 10:00 is online. The other meetings are in-person.”
+</div>
+
+<b>Which:</b> Introduces extra information that is not essential.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example:
+
+The time is not essential: “The meeting, which starts at 10:00, is online.”
+</div>
+
+## Verb agreement with collective nouns
+
+Use a singular verb with collective nouns when referring to the group as a single entity.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Examples:
+
+- Avoid: The working group have published a draft.
+- Use: The working group has published a draft.
+</div>
+
+**Exceptions:**
+
+Exception 1: Use a plural verb if members act independently.
+
+<div class="inset-text inset-text--related inset-text--condensed" markdown="1">
+Example
+
+The staff have handed in their separate reports.
+</div>
+ 
+Exception 2: The following collective nouns always take a plural verb:
+  - people: The people are waiting.
+  - police: The police are investigating.
